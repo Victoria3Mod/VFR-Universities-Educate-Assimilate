@@ -1,0 +1,7 @@
+﻿l_russian:
+ pmg_university_curriculum:1 "Финансирование и содержание"
+
+ pm_basic_curriculum:0 "Пропагандистский"
+ pm_private_curriculum:0 "Частные школы"
+ pm_religious_curriculum:0 "Обязательное изучение религиозных текстов"
+ pm_public_curriculum:0 "Общие школы"

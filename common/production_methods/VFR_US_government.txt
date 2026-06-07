@@ -1,0 +1,189 @@
+pm_scholastic_education = {
+	texture = "gfx/interface/icons/production_method_icons/scholastic_education.dds"
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 2
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 4
+		}	
+	
+		level_scaled = {
+			building_employment_clerks_add = 1000
+			building_employment_laborers_add = 1000
+		}
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.03
+		}	
+	}
+
+	ai_value = 50000
+}
+
+pm_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/philosophy_dept.dds"
+	
+	unlocking_technologies = {
+		dialectics
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 3
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_paper_add = 8
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 1500
+			building_employment_laborers_add = 1000
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.05
+		}	
+	}
+
+	ai_value = 100000
+}
+
+pm_analytical_philosophy_department = {
+	texture = "gfx/interface/icons/production_method_icons/analytical_philosophy_department.dds"
+	
+	unlocking_technologies = {
+		analytical_philosophy
+	}
+	
+	country_modifiers = {
+		workforce_scaled = { 
+			country_weekly_innovation_add = 4
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = { 
+			goods_input_paper_add = 12
+		}
+		
+		level_scaled = {
+			building_employment_clerks_add = 2000
+			building_employment_laborers_add = 1000
+		}					
+	}
+	
+	state_modifiers = {
+		workforce_scaled = { 
+			state_pop_qualifications_mult = 0.08
+		}	
+	}
+
+	ai_value = 200000
+}	
+
+pm_secular_academia = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
+	
+	disallowing_laws = {
+		law_state_religion
+	}
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_academics_add = 2000
+		}
+	}			
+}
+
+pm_religious_academia = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+	
+	disallowing_laws = {
+		law_total_separation
+	}	
+	
+	building_modifiers = {
+		level_scaled = {
+			building_employment_clergymen_add = 1000
+			building_employment_academics_add = 1000
+		}
+	}			
+}			
+
+pm_basic_curriculum = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_bureacrats.dds"
+
+	disallowing_laws = {
+		law_religious_schools
+		law_private_schools
+		law_public_schools
+	}
+
+	state_modifiers = {
+		level_scaled = {
+			state_education_access_wealth_add = 0.001
+		}
+	}
+}
+
+pm_private_curriculum = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_aristocrats.dds"
+
+	disallowing_laws = {
+		law_no_schools
+		law_religious_schools
+		law_public_schools
+	}
+
+	state_modifiers = {
+		level_scaled = {
+			state_education_access_wealth_add = 0.005
+		}
+	}
+}
+
+pm_religious_curriculum = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_clergy.dds"
+
+	disallowing_laws = {
+		law_no_schools
+		law_private_schools
+		law_public_schools
+	}
+
+	state_modifiers = {
+		level_scaled = {
+			state_education_access_add = 0.005
+			state_conversion_mult = 0.05
+		}
+	}
+}
+
+pm_public_curriculum = {
+	texture = "gfx/interface/icons/production_method_icons/ownership_academics.dds"
+
+	disallowing_laws = {
+		law_no_schools
+		law_religious_schools
+		law_private_schools
+	}
+
+	state_modifiers = {
+		level_scaled = {
+			state_education_access_add = 0.015
+			state_assimilation_mult = 0.015
+		}
+	}
+}
