@@ -1,4 +1,4 @@
-INJECT:building_university = {
+﻿INJECT:building_university = {
 	production_method_groups = {
 		pmg_university_curriculum
 	}
