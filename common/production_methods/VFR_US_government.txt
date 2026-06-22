@@ -9,7 +9,7 @@
 INJECT:pm_philosophy_department = {
 	state_modifiers = {
 		workforce_scaled = {
-			state_pop_qualifications_mult = -0.06
+			state_pop_qualifications_mult = -0.08
 		}
 	}
 }
@@ -17,7 +17,7 @@ INJECT:pm_philosophy_department = {
 INJECT:pm_analytical_philosophy_department = {
 	state_modifiers = {
 		workforce_scaled = {
-			state_pop_qualifications_mult = -0.04
+			state_pop_qualifications_mult = -0.08
 		}
 	}
 }				
